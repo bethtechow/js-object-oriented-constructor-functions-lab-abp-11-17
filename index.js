@@ -14,8 +14,7 @@ function Driver (name, age, experience){
 }
 var Allison = new Driver ("Allison", "16 years", "2 years")
 
-function PickupLocation (name, address, city){
-  this.name=name;
+function PickupLocation (address, city){
   this.address=address;
   this.city=city;
 }
